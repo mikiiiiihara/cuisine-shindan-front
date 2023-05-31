@@ -13,6 +13,13 @@ export const findSpicyAnswer = (formData: FormData): Answer => {
       imageUrl:
         "https://cdn.pixabay.com/photo/2015/07/08/19/40/food-836806_1280.jpg",
     };
+  } else if (method === "揚げ物" && meat === "鶏肉") {
+    return {
+      cuisine: "ヤンニョムチキン",
+      category: "韓国料理",
+      imageUrl:
+        "https://cdn.pixabay.com/photo/2014/07/31/08/21/chicken-406111_1280.jpg",
+    };
   } else if (method === "生食" && spice === "強い") {
     return {
       cuisine: "タコス",
