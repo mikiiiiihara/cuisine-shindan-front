@@ -1,7 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import Cors from "cors";
-import { findAnswer } from "../../function/answer/findAnswer";
-import { Answer } from "../../function/answer/findSaltyAnswer";
+import { Answer, findAnswer } from "../../function/answer/findAnswer";
 
 // Initializing the cors middleware
 const cors = Cors({
