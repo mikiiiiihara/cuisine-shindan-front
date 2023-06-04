@@ -9,6 +9,7 @@ export type Answer = {
   cuisine: string;
   category: string;
   imageUrl?: string;
+  description?: string;
 };
 export const findAnswer = (formData: FormData): Answer => {
   const { preference } = formData;
