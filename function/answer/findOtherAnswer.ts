@@ -5,7 +5,7 @@ export const findOtherAnswer = (formData: FormData): Answer => {
   const { method, meat, spice } = formData;
 
   // 1から5問目の組み合わせによって分岐
-  if (method === "焼き物" && meat === "豚肉") {
+  if (method === "焼き物" && meat === "海鮮") {
     return {
       cuisine: "パエリア",
       category: "スペイン料理",
