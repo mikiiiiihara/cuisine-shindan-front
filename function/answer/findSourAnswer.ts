@@ -17,7 +17,7 @@ export const findSourAnswer = (formData: FormData): Answer => {
       imageUrl:
         "https://images.unsplash.com/photo-1628430043175-0e8820df47c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1742&q=80",
     };
-  } else if (meat === "鶏肉" && method === "揚げ物" && spice === "弱い") {
+  } else if (meat === "鶏肉" && method === "揚げ物") {
     return {
       cuisine: "モホ・チキン",
       category: "キューバ料理",
